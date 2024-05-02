@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;   
     padding: 32px;
+   
 }
 .item{    
     color:#828282;
@@ -242,11 +243,43 @@
     align-items: center;
     margin-bottom: 116px;
 }
+
 .icons-text {
+    max-width: 243px;
+    width: 100%;
     color: #828282;
     text-align: center;
     font-family: Gilroy-Medium;
     font-size: 14px;  
     font-weight: 400;
     margin-bottom: 123px;
+   
 }
+.icon{
+    width: 100%;  
+    color:#070707;
+    animation-duration: 3s;
+    animation-name: socialicon;
+    transition: all 0.3s ease;
+   
+}
+.icon:hover{
+    color:#af7474;
+    transform: scale(1.1);
+}
+.img{
+    display: block;
+
+}
+
+@keyframes socialicon{
+    from{
+       
+    margin-top: 25%;
+
+    }
+    to{
+        margin-top: 0px;
+
+    }
+} 
